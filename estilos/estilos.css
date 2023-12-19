@@ -1,0 +1,99 @@
+* /* #region GENERALES */
+{
+    margin: 0;
+    padding: 0;
+}
+body {
+    /* VARIABLES CSS */
+    --color-principal: #839cff;
+    --color-acento: rgba(253, 141, 255, 1);
+    --color-texto-oscuro: rgba(0, 0, 0, 0.996);
+    --color-texto-claro: white;
+}
+
+/* #endregion */
+
+/* #region BARRA DE NAVEGACIÓN */
+nav {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    
+}
+nav img {
+    width: 200px;
+}
+
+.lista-nav {
+    display: flex;
+    list-style: none;
+}
+
+.enlace-nav {
+    color: rgb(6, 109, 144);
+    padding: 10px 50px;
+    text-decoration: none;
+    font-family: Arial;
+}
+
+.enlace-nav:hover {
+    color:   red;
+}
+
+main {
+    margin: 50px;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    font-family: Arial;
+}
+.columna30 {
+    width: 25%;
+    text-align: right;
+    color: rgb(5, 112, 136);
+}
+
+.columna30 h1 {
+    margin-right: 85px;
+    font-size: 160%;
+}
+
+.columna70 {
+    width: 75%;
+}
+.columna70 p{
+    margin-bottom: 10px;
+}
+.cita {
+    margin left: 20%;
+    margin top: 30%
+    width: 90%;
+    text-align: right;
+    font-size: 130%;
+    color: red;
+
+}
+
+
+footer{
+    background-color: rgb(5, 112, 136);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+
+.lista-nav {
+        display: flex;
+        list-style: none;
+    }
+    
+    .enlace-nav {
+        color: rgb(6, 109, 144);
+        padding: 10px 40px;
+        text-decoration: none;
+        font-family: Arial;
+    }
+    
+}
